@@ -1,11 +1,8 @@
-
 # Secret Word
 
 Minigame interativo onde o usuário tenta adivinhar uma palavra secreta em um número limitado de tentativas. O projeto foi desenvolvido utilizando principalmente as tecnologias:  **React**, **Vite** e **CSS**.
 
 Este projeto foi desenvolvido com base no curso *React do Zero à Maestria*, de Matheus Battisti, com ajustes no design e identidade visual adaptada conforme preferências.
-
----
 
 ## Funcionalidades
 
@@ -16,13 +13,9 @@ Este projeto foi desenvolvido com base no curso *React do Zero à Maestria*, de 
 * Indicação de letras já tentadas
 * Estilização visual personalizada  
 
----
-
 ## Tecnologias Utilizadas
 
 Este projeto foi construído com as seguintes ferramentas: React, Vite, HTML, CSS, JSX e Hooks do React
-
----
 
 ## Como Rodar Localmente
 
