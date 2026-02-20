@@ -1,0 +1,163 @@
+.game {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 48px 16px;
+
+  font-family: 'Fredoka', sans-serif;
+}
+
+.gameCard {
+  width: 100%;
+  max-width: 820px;
+
+  padding: 34px 26px 30px;
+
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(10px);
+
+  text-align: center;
+  color: #6f5e68; /* cinza rosado */
+}
+
+.points {
+  margin: 0 0 12px;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(120, 60, 85, 0.55);  
+}
+
+.gameTitle {
+  margin: 8px 0 10px;
+  font-size: 44px;
+  font-weight: 800;
+  background: linear-gradient(
+    180deg,
+    #f1b2c8 0%,
+    #c75a86 50%,
+    #a43c63 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+}
+
+.tip,
+.triesText,
+.letterContainer p,
+.wrongLettersContainer p {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(120, 60, 85, 0.55);  
+}
+
+.tip span {
+  color: #c75a86;
+  font-weight: 800;
+}
+
+.spanGuesses {
+  color:#c75a86;
+}
+
+.wordContainer {
+  margin: 22px auto 24px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+
+}
+
+.letter,
+.blankSquare {
+  width: 62px;
+  height: 62px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+  font-size: 28px;
+  font-weight: 800;
+
+  background: white;
+  border: 2px solid rgba(199, 90, 134, 0.22);
+}
+
+.blankSquare {
+  color: transparent;
+  border-style: solid;
+  background: rgba(255, 255, 255, 0.70);
+}
+
+.letter {
+  color: #c75a86;
+}
+
+.letterContainer form {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.letterContainer input {
+  width: 76px;
+  height: 56px;
+
+  border-radius: 16px;
+  border: 2px solid rgba(199, 90, 134, 0.25);
+  background: rgba(255, 255, 255, 0.9);
+  color: #c75a86;
+
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+
+  outline: none;
+}
+
+.letterContainer input:focus {
+  border-color: rgba(164, 60, 99, 0.55);
+  box-shadow: 0 0 0 4px rgba(247, 109, 150, 0.14);
+}
+
+.wrongLettersContainer {
+  margin-top: 18px;
+}
+
+.wrongLettersChips {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.wrongLettersChips span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 44px;
+  height: 40px;
+  padding: 6 12px;
+
+  border-radius: 999px;
+  background: #fbe6ee;
+  border: 1px solid rgba(199, 90, 134, 0.22);
+
+  color: #b36b89;
+  font-weight: 800;
+}

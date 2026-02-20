@@ -1,0 +1,54 @@
+.start {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.titleSticker {
+  position: relative;
+  display: inline-block;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.titleStroke {
+  position: absolute;
+  inset: 0;
+  color: #ffffff;
+
+  -webkit-text-stroke: 16px white;
+  text-shadow: 10px white;
+
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.18));
+}
+
+.titleFill {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #f1b2c8 0%,
+    #c75a86 50%,
+    #a43c63 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.start p {
+  margin-top: 1px;
+  margin-bottom: 30px;
+
+  font-size: 22px;        
+  font-weight: 700;       
+  letter-spacing: 0.3px;  
+
+  color: rgba(120, 60, 85, 0.55);      
+  text-align: center;
+}
+

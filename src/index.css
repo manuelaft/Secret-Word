@@ -1,0 +1,53 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    margin:0;
+    padding:0;
+    background: 
+    radial-gradient(circle at 25% 35%, #ffd4e3 0%, #ffe8f1 45%, #fff6da 100%),
+    radial-gradient(circle at 80% 30%, #fff2c9 0%, #ffe6d8 40%, #fff6da 100%);
+    color:white;
+}
+
+button {
+    background:
+        linear-gradient(
+            180deg,
+            #ffa3c0 0%,
+            #f78fb2 100%
+            );
+    color:white;
+    padding: 0 45px;
+    border: 2px solid white;
+    border-radius: 25px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+    box-shadow: 
+        0 6px 12px rgba(236, 95, 140, 0.35),
+        inset 0 2px 4px rgba(255, 255, 255, 0.4);
+}
+
+button:hover {
+    background: linear-gradient(
+    180deg,
+    #ff8fb1 0%,
+    #f76d96 50%,
+    #ec5f8c 100%
+    );
+    box-shadow: 
+        0 6px 12px rgba(236, 95, 140, 0.35),
+        inset 0 2px 4px rgba(255, 255, 255, 0.4);
+    transform: translateY(-1px);
+
+}
+
+/* Card */

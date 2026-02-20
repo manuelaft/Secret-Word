@@ -1,0 +1,35 @@
+.gameOver {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.gameOver h1 {
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 16px;
+
+  color: #c75a86;
+}
+
+.scoreLabel {
+  font-size: 22px;
+  font-weight:800;
+  color: rgba(120, 60, 85, 0.55);
+  margin-bottom: 12px;
+}
+
+.scoreValue {
+  font-size: 96px;
+  font-weight: 900;
+
+  color: #e06c95;
+
+  margin-bottom: 20px;
+
+  text-shadow: 0 10px 30px rgba(236, 95, 140, 0.25);
+}
